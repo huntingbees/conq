@@ -1,5 +1,6 @@
 window.correct = 100;
 window.levelStarted = Date.now();
+
 window.myUsername = $("#user_id").text();
 window.opUsername = "гопстоп";
 
