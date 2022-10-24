@@ -9,30 +9,6 @@ window.opAbs = -1;
 window.myDt = -1;
 window.opDt = -1;
 
-if (window.vic === "myVic" || window.vic === "opVic") {
-  $("#up").attr("hidden", false);
-
-  if (window.vic === "myVic") {
-    enter("myvic");
-    return;
-  }
-
-  if (window.vic === "opVic") {
-    enter("opvic");
-    return;
-  }
-}
-
-window.vic = "";
-
-
-
-window.finish = function () {
-  enter("up");
-}
-
-
-
 window.submitAnswerCallback = function (answer) {
 
   const obj = {
