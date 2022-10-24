@@ -1,1 +1,1 @@
-console.log("main.js loaded and changed");
+console.log("main.js loaded and changed!");
